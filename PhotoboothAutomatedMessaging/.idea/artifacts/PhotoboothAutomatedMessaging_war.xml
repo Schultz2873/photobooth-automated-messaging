@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PhotoboothAutomatedMessaging:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PhotoboothAutomatedMessaging</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PhotoboothAutomatedMessaging.war">
+      <element id="artifact" artifact-name="PhotoboothAutomatedMessaging:war exploded" />
+    </root>
+  </artifact>
+</component>
